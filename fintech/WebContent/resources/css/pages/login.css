@@ -1,0 +1,66 @@
+body {
+  background: linear-gradient(180deg, #6A00F1 0%, rgba(54, 19, 99, 0.615) 99.99%, rgba(101, 26, 197, 0.56) 100%);
+  padding: 50px;
+}
+
+.container {
+  background-color: var(--color-white);
+  border-radius: 20px;
+}
+
+form {
+  padding: 15%;
+}
+
+button {
+  width: 100%;
+  margin-top: 12px;
+}
+
+.button-facebook,
+.button-google {
+  margin-bottom: 12px;
+  background-color: var(--color-primary-light);
+  height: 42px;
+  line-height: 42px;
+  border-radius: 21px;
+  padding: 0 24px;
+  text-align: center;
+  font-size: 18px;
+  color: var(--color-white);
+  cursor: pointer;
+  display: block;
+}
+
+.button-facebook i,
+.button-google i {
+  color: var(--color-white);
+}
+
+.button-facebook {
+  background-color: var(--color-facebook);
+}
+
+.button-facebook:hover {
+  background-color: var(--color-facebook-light);
+}
+
+.button-google {
+  background-color: var(--color-google);
+}
+
+.button-google:hover {
+  background-color: var(--color-google-light);
+}
+
+hr {
+  margin: 20px;
+}
+
+.link {
+  color: var(--color-text);
+  font-size: 14px;
+  text-align: center;
+  display: block;
+  text-decoration: underline;
+}
